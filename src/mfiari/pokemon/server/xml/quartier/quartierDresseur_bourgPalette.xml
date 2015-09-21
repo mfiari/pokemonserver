@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quartier id="quartierDresseur_bourgPalette" nom="quartier Dresseur bourg palette" positionX="0" positionY="0" longueur="11" largeur="8" terrain="normal">
+	<sol type="herbe"/>
+	<Objet_endroit_passage Type_objet="chemin" positionX="0" positionY="5">
+		<Position positionX="7" positionY="5" positionZ="0" endroit="debut_route1" orientation="dos"></Position>
+	</Objet_endroit_passage>
+	<boucle id="i" debut="0" fin="8">
+		<Objet_endroit_classique Type_objet="arbre" positionX="i" positionY="0"/>
+		<Objet_endroit_classique Type_objet="arbre" positionX="i" positionY="10"/>
+	</boucle>
+	<boucle id="j" debut="0" fin="5">
+		<Objet_endroit_classique Type_objet="arbre" positionX="0" positionY="j"/>
+	</boucle>
+	<boucle id="j" debut="6" fin="11">
+		<Objet_endroit_classique Type_objet="arbre" positionX="0" positionY="j"/>
+	</boucle>
+	<boucle id="j" debut="3" fin="9">
+		<Objet_endroit_classique Type_objet="chemin" positionX="3" positionY="j"/>
+	</boucle>
+	<boucle id="j" debut="1" fin="5">
+		<Objet_endroit_classique Type_objet="chemin" positionX="5" positionY="j"/>
+	</boucle>
+	<boucle id="i" debut="1" fin="7">
+		<Objet_endroit_classique Type_objet="chemin" positionX="i" positionY="5"/>
+	</boucle>
+</Quartier>

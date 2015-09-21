@@ -1,0 +1,44 @@
+<pokemon id="1" nom="Bulbizarre" taille="0.7" poids="6.9" tauxCapture="45" pourcentageMale="87" pasAvantEclosion="5120" type="graine">
+	<type id="plante"></type>
+	<type id="poison"></type>
+	<stat niv="1" pv="11" att="5" def="6" attSpe="6" defSpe="6" vit="5" esq="100" prec="100">
+	<stat niv="100" pv="200" att="92" def="113" attSpe="135" defSpe="135" vit="95" esq="100" prec="100">
+	<capaciteSpe nom="engrais"></capaciteSpe>
+	<capacite nom="lance_soleil"></capacite>
+	<evolution niv="16" pokemon="2"></evolution>
+	<description texte="La graine sur le dos de Bulbizarre est une réserve de nutriments. Il la fait doucement pousser en absorbant les rayons du soleil, 
+		et emmagasine de l'énergie dedans en vue de son évolution. S'il dépense trop souvent son énergie, 
+		il n'évoluera pas car l'ouverture de son bulbe dépend de ses réserves de nutriments."></description>
+	<capacites>
+		<base nom="charge"></base>
+		<base nom="rugissement"></base>
+		<capacite niv="6" nom="grozyeux"></capacite>
+		<capacite niv="9" nom="vampigraine"></capacite>
+		<capacite niv="13" nom="vol_vie"></capacite>
+		<capacite niv="17" nom="tranch_herbe"></capacite>
+		<capacite niv="19" nom="poudre_toxik"></capacite>
+		<capacite niv="20" nom="poudre_dodo"></capacite>
+		<capacite niv="23" nom="tourniquet"></capacite>
+		<capacite niv="27" nom="siffl_herbe"></capacite>
+		<capacite niv="30" nom="para_spore"></capacite>
+		<capacite niv="38" nom="balle_graine"></capacite>
+		<capacite niv="44" nom="ligotage"></capacite>
+		<capacite niv="50" nom="mega_sangsue"></capacite>
+		<capacite niv="55" nom="ecrasement"></capacite>
+		<capacite niv="60" nom="acide"></capacite>
+		<capacite niv="63" nom="croissance"></capacite>
+		<capacite niv="68" nom="synthese"></capacite>
+		<capacite niv="72" nom="fouet_liane"></capacite>
+		<capacite niv="78" nom="ecras_face"></capacite>
+		<capacite niv="81" nom="feuillmagik"></capacite>
+		<capacite niv="85" nom="belier"></capacite>
+		<capacite niv="92" nom="eco_sphere"></capacite>
+		<capacite niv="100" nom="plaquage"></capacite>
+		<capacite niv="104" nom="giga_sangsue"></capacite>
+		<capacite niv="110" nom="lance_soleil"></capacite>
+	</capacites>
+	<endroits>
+		<endroit id="milieu_route13_2" nivMin="20" nivMax="24" environnement="haute_herbe" pourcentage="20"></endroit>
+		<endroit id="milieu_route13_3" nivMin="20" nivMax="24" environnement="haute_herbe" pourcentage="20"></endroit>
+	</endroits>
+</pokemon>
