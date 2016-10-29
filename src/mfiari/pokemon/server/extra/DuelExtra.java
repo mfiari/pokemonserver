@@ -5,22 +5,18 @@
 package mfiari.pokemon.server.extra;
 
 import mfiari.lib.game.controlleur.ControlleurVue;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.list.ListeDePokemon;
 import mfiari.pokemon.server.combat.Combat;
 import mfiari.pokemon.server.demarrage.CreationCapacite;
 import mfiari.pokemon.server.demarrage.CreationPerso;
 import mfiari.pokemon.server.demarrage.CreationPokemon;
-import mfiari.pokemon.server.liste.EquipePokemon;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.liste.ListeDePokemon;
-import mfiari.pokemon.server.objet.Pokedex;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.perso.DresseurClassique;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
-import mfiari.pokemon.server.perso.pokemon.PokemonClassique;
-import mfiari.pokemon.server.perso.pokemon.PokemonFinal;
-import mfiari.pokemon.server.perso.pokemon.PokemonLegendaire;
-import mfiari.pokemon.server.perso.pokemon.PokemonMultiEvolution;
-import mfiari.pokemon.server.ville.Terrains;
+import mfiari.pokemon.core.objet.Pokedex;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.dresseur.DresseurClassique;
+import mfiari.pokemon.core.perso.pokemon.EquipePokemon;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.ville.Terrains;
 
 /**
  *

@@ -5,6 +5,8 @@
 package mfiari.pokemon.server.ville;
 
 import mfiari.lib.game.position.Orientation;
+import mfiari.pokemon.core.ville.CentrePokemon;
+import mfiari.pokemon.core.ville.Quartier;
 
 /**
  *

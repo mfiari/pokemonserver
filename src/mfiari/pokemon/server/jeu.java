@@ -10,11 +10,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import mfiari.lib.game.reseau.Serveur;
 import mfiari.lib.game.reseau.ServeurManager;
-import mfiari.pokemon.server.demarrage.CreationPerso;
-import mfiari.pokemon.server.demarrage.CreationPokemon;
-import mfiari.pokemon.server.demarrage.CreationVille;
+import mfiari.pokemon.core.network.User;
 import mfiari.pokemon.server.network.ClientListener;
-import mfiari.pokemon.server.network.User;
 
 /**
  *
@@ -27,9 +24,6 @@ public class jeu {
         Serveur serveur = new Serveur();
         serveur.lancerServeur(Global.port);
         ServeurManager manager = new ServeurManager();
-        CreationPokemon creationPokemon = new CreationPokemon();
-        CreationPerso creationPerso = new CreationPerso();
-        CreationVille creationVille = new CreationVille();
         int id = 0;
         while (true) {
             if (serveur.clientArrive()) {

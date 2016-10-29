@@ -5,7 +5,7 @@
 package mfiari.pokemon.server.menu;
 
 import java.io.Serializable;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 
 
 

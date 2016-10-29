@@ -13,12 +13,12 @@ import mfiari.lib.game.objet.Objet;
 import mfiari.lib.game.personnage.Gens;
 import mfiari.pokemon.server.PokemonJeu;
 import mfiari.pokemon.server.combat.Combat;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 import mfiari.lib.game.position.Position;
-import mfiari.pokemon.server.liste.EquipePokemon;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.ville.Terrain;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.pokemon.EquipePokemon;
+import mfiari.pokemon.core.ville.Terrain;
 
 /**
  *

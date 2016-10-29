@@ -7,7 +7,7 @@ package mfiari.pokemon.server.xml;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 
 /**
  *

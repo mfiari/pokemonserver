@@ -4,11 +4,6 @@
  */
 package mfiari.pokemon.server.connexionBD;
 
-import mfiari.pokemon.server.liste.ListeDeBadge;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.liste.ListeDePokemon;
-import mfiari.pokemon.server.liste.EquipePokemon;
-import mfiari.pokemon.server.liste.ListeDeCapacite;
 import mfiari.pokemon.core.objet.Objet_lettre;
 import mfiari.pokemon.core.objet.Objet_baie;
 import mfiari.pokemon.core.objet.Objet_combat;
@@ -25,25 +20,29 @@ import mfiari.lib.game.liste.ListeObjet;
 import mfiari.lib.game.objet.Objet;
 import mfiari.lib.game.personnage.Sexe;
 import mfiari.lib.game.position.Orientation;
-import mfiari.pokemon.server.Global;
 import mfiari.pokemon.core.capacite.Attributs;
-import mfiari.pokemon.server.capacite.AttributsExp;
-import mfiari.pokemon.server.capacite.Capacite;
+import mfiari.pokemon.core.capacite.AttributsExp;
+import mfiari.pokemon.core.capacite.Capacite;
 import mfiari.pokemon.core.capacite.Etat;
+import mfiari.pokemon.core.list.ListeDeBadge;
+import mfiari.pokemon.core.list.ListeDeCapacite;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.list.ListeDePokemon;
 import mfiari.pokemon.server.evenement.Evenement;
 import mfiari.pokemon.server.evenement.EvenementQuete;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.perso.DresseurClassique;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 import mfiari.pokemon.core.perso.Titre;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.dresseur.DresseurClassique;
 import mfiari.pokemon.core.type.Type;
-import mfiari.pokemon.server.objet.Badge;
-import mfiari.pokemon.server.objet.Objet_capacite;
-import mfiari.pokemon.server.objet.PC;
-import mfiari.pokemon.server.objet.Pokedex;
-import mfiari.pokemon.server.objet.Sac;
-import mfiari.pokemon.server.type.TypeExp;
-import mfiari.pokemon.server.ville.Endroit;
+import mfiari.pokemon.core.objet.Badge;
+import mfiari.pokemon.core.objet.Objet_capacite;
+import mfiari.pokemon.core.objet.PC;
+import mfiari.pokemon.core.objet.Pokedex;
+import mfiari.pokemon.core.objet.Sac;
+import mfiari.pokemon.core.perso.pokemon.EquipePokemon;
+import mfiari.pokemon.core.type.TypeExp;
+import mfiari.pokemon.core.ville.Endroit;
 
 /**
  *
@@ -299,18 +298,6 @@ public class Connexion extends Methode {
     }
 
     public void enregistrerDresseur(Dresseur perso) {
-        PreparedStatement prepare = this.prepareStatement("insert into joueur values(?,?,?,?,?,?,?,?,?,?)");
-        this.setParameterInt(prepare, this.idJoueur, 1);
-        this.setParameterString(prepare, perso.getNom(), 2);
-        this.setParameterString(prepare, Integer.toString(perso.getNumeroID()), 3);
-        this.setParameterString(prepare, perso.getSexe().name(), 4);
-        this.setParameterInt(prepare, perso.getArgent(), 5);
-        this.setParameterInt(prepare, perso.getPosition().getPositionX(), 6);
-        this.setParameterInt(prepare, perso.getPosition().getPositionY(), 7);
-        this.setParameterString(prepare, perso.getPosition().getOrientation().name(), 8);
-        this.setParameterInt(prepare, this.getIdEndroit(perso.getPosition().getEndroit().getNom()), 9);
-        this.setParameterInt(prepare, this.getIdEndroit(Global.paysDepart.getNom()), 10);
-        this.executeUpdatePreparedStatement(prepare);
     }
 
     public void sauvegarderDresseur(Dresseur perso) {

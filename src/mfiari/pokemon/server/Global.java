@@ -6,9 +6,7 @@ package mfiari.pokemon.server;
 
 import mfiari.lib.game.clavier.CodeBouton;
 import mfiari.lib.game.media.SoundController;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
-import mfiari.pokemon.server.ville.Endroits;
-import mfiari.pokemon.server.ville.Pays;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 
 /**
  *
@@ -16,7 +14,7 @@ import mfiari.pokemon.server.ville.Pays;
  */
 public class Global {
     
-    public static Pays paysDepart = Endroits.Kanto;
+    /*public static Pays paysDepart = Endroits.Kanto;*/
     public static Pokemon pokemonRival1 = null;
     public static Pokemon pokemonRival2 = null;
     public static Pokemon pokemonRival3 = null;

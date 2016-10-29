@@ -16,7 +16,7 @@ import mfiari.lib.game.position.Position;
  */
 public abstract class Evenement extends mfiari.lib.game.evenements.Evenement implements Serializable {
     
-    private int tailleEquipe;
+    private final int tailleEquipe;
 
     public Evenement(Position endroitDeLevenement, Gens personneAquiParler, Objet objet, String titre, int tailleEquipe) {
         super(endroitDeLevenement, personneAquiParler, objet, titre);

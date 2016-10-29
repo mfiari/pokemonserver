@@ -12,10 +12,10 @@ import org.xml.sax.helpers.DefaultHandler;
 import mfiari.lib.game.position.Orientation;
 import mfiari.pokemon.core.objet.Type_objet;
 import mfiari.lib.game.position.Position;
-import mfiari.pokemon.server.ville.Quartier;
+import mfiari.pokemon.core.ville.Quartier;
 import mfiari.pokemon.core.ville.Sol;
-import mfiari.pokemon.server.ville.Terrain;
-import mfiari.pokemon.server.ville.Terrains;
+import mfiari.pokemon.core.ville.Terrain;
+import mfiari.pokemon.core.ville.Terrains;
 
 /**
  *

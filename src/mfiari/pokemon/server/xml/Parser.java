@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-import mfiari.pokemon.server.ville.Endroit;
+import mfiari.pokemon.core.ville.Endroit;
 
 /**
  *

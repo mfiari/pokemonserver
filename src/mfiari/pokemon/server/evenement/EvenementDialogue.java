@@ -11,7 +11,7 @@ import mfiari.lib.game.liste.ListeDeGens;
 import mfiari.lib.game.objet.Objet;
 import mfiari.lib.game.personnage.Gens;
 import mfiari.pokemon.server.PokemonJeu;
-import mfiari.pokemon.server.objet.Badge;
+import mfiari.pokemon.core.objet.Badge;
 import mfiari.lib.game.position.Position;
 import mfiari.lib.game.texte.Parole;
 

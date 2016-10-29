@@ -4,27 +4,22 @@
  */
 package mfiari.pokemon.server.extra;
 
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
-import mfiari.pokemon.server.perso.pokemon.PokemonClassique;
-import mfiari.pokemon.server.perso.pokemon.PokemonFinal;
-import mfiari.pokemon.server.perso.pokemon.PokemonLegendaire;
-import mfiari.pokemon.server.perso.pokemon.PokemonMultiEvolution;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.net.Socket;
 import mfiari.lib.game.reseau.Client;
 import mfiari.lib.game.reseau.EnvoiObjet;
 import mfiari.lib.game.reseau.ReceveurObjet;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.list.ListeDePokemon;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.pokemon.EquipePokemon;
 import mfiari.pokemon.server.Global;
 import mfiari.pokemon.server.demarrage.CreationCapacite;
 import mfiari.pokemon.server.demarrage.CreationPerso;
 import mfiari.pokemon.server.demarrage.CreationPokemon;
-import mfiari.pokemon.server.liste.EquipePokemon;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.liste.ListeDePokemon;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.tournoi.TournoiReseauClient;
-import mfiari.pokemon.server.type.TypeTournoi;
+import mfiari.pokemon.core.type.TypeTournoi;
 
 /**
  *

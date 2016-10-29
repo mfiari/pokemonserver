@@ -4,21 +4,12 @@
  */
 package mfiari.pokemon.server.combat;
 
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
 import java.net.Socket;
-import mfiari.lib.game.controlleur.Vues;
-import mfiari.lib.game.objet.Objet;
 import mfiari.lib.game.reseau.EnvoiObjet;
-import mfiari.lib.game.reseau.NetworkObjectTranmetter;
 import mfiari.lib.game.reseau.ReceveurObjet;
-import mfiari.pokemon.server.Global;
-import mfiari.pokemon.server.liste.EquipePokemon;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.objet.Sac;
-import mfiari.pokemon.core.objet.Type_objet;
-import mfiari.pokemon.core.type.Attribut;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.ville.Terrain;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.ville.Terrain;
 
 /**
  *

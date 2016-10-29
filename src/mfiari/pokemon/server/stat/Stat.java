@@ -9,7 +9,7 @@ package mfiari.pokemon.server.stat;
 import mfiari.pokemon.core.stat.IndividualValue;
 import mfiari.pokemon.core.stat.EffortValue;
 import mfiari.pokemon.core.capacite.Attributs;
-import mfiari.pokemon.server.capacite.AttributsExp;
+import mfiari.pokemon.core.capacite.AttributsExp;
 import mfiari.pokemon.core.perso.Nature;
 
 /**

@@ -7,7 +7,22 @@ package mfiari.pokemon.server.ville;
 import mfiari.pokemon.core.ville.TypeBatiment;
 import mfiari.lib.game.position.Orientation;
 import mfiari.pokemon.core.tournoi.NiveauTournoi;
-import mfiari.pokemon.server.type.TypeTournoi;
+import mfiari.pokemon.core.ville.Batiment;
+import mfiari.pokemon.core.ville.BatimentTournoi;
+import mfiari.pokemon.core.ville.CentrePokemon;
+import mfiari.pokemon.core.ville.Magasin;
+import mfiari.pokemon.core.ville.Maison;
+import mfiari.pokemon.core.ville.Pays;
+import mfiari.pokemon.core.ville.Quartier;
+import mfiari.pokemon.core.ville.Salle;
+import mfiari.pokemon.core.ville.SousZone;
+import mfiari.pokemon.core.ville.Terrains;
+import mfiari.pokemon.core.ville.Ville;
+import mfiari.pokemon.core.ville.Zone;
+import mfiari.pokemon.core.type.TypeTournoi;
+import mfiari.pokemon.core.ville.ArenePkmn;
+import mfiari.pokemon.core.ville.Gare;
+import mfiari.pokemon.core.ville.Grotte;
 
 /**
  *

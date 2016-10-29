@@ -8,10 +8,10 @@ import mfiari.lib.game.jeu.Jeu;
 import mfiari.lib.game.objet.Objet;
 import mfiari.lib.game.personnage.Gens;
 import mfiari.lib.game.position.Position;
+import mfiari.pokemon.core.list.ListeDePokemon;
 import mfiari.pokemon.server.PokemonJeu;
-import mfiari.pokemon.server.liste.ListeDePokemon;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
-import mfiari.pokemon.server.ville.Endroit;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
+import mfiari.pokemon.core.ville.Endroit;
 
 /**
  *

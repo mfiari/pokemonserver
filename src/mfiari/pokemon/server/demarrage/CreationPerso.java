@@ -4,13 +4,9 @@
  */
 package mfiari.pokemon.server.demarrage;
 
-import mfiari.pokemon.server.perso.pokemon.PokemonMultiEvolution;
-import mfiari.pokemon.server.perso.pokemon.PokemonFinal;
-import mfiari.pokemon.server.perso.pokemon.PokemonClassique;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
 import mfiari.lib.game.liste.ListeDeGens;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.type.TypeTournoi;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.type.TypeTournoi;
 
 
 /**

@@ -4,7 +4,8 @@
  */
 package mfiari.pokemon.server.demarrage;
 
-import mfiari.pokemon.server.liste.ListeDePokemon;
+import mfiari.pokemon.core.list.ListeDePokemon;
+
 
 /**
  *

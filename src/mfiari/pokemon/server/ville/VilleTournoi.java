@@ -4,11 +4,13 @@
  */
 package mfiari.pokemon.server.ville;
 
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.perso.Dresseur;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
 import mfiari.pokemon.core.tournoi.NiveauTournoi;
-import mfiari.pokemon.server.tournoi.Tournoi;
-import mfiari.pokemon.server.type.TypeTournoi;
+import mfiari.pokemon.core.tournoi.Tournoi;
+import mfiari.pokemon.core.type.TypeTournoi;
+import mfiari.pokemon.core.ville.Terrains;
+import mfiari.pokemon.core.ville.Ville;
 
 /**
  *

@@ -15,10 +15,10 @@ import mfiari.lib.game.objet.ObjetEndroitPassage;
 import mfiari.lib.game.position.Orientation;
 import mfiari.pokemon.server.perso.Dresseurs;
 import mfiari.lib.game.position.Position;
+import mfiari.pokemon.core.objet.Objet_endroit_soin;
 import mfiari.pokemon.server.ville.Endroits;
 import mfiari.pokemon.core.ville.Environnement;
 import mfiari.pokemon.core.ville.Sol;
-import mfiari.pokemon.server.objet.Objet_endroit_soin;
 import mfiari.pokemon.server.objet.Objets;
 
 /**
@@ -27,7 +27,7 @@ import mfiari.pokemon.server.objet.Objets;
  */
 public class CreationVille {
 
-    private ListeDEndroit carte_pokemon;
+    private final ListeDEndroit carte_pokemon;
 
     public CreationVille() {
         this.carte_pokemon = new ListeDEndroit();

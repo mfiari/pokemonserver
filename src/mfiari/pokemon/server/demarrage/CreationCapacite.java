@@ -7,7 +7,7 @@ package mfiari.pokemon.server.demarrage;
 import mfiari.pokemon.core.capacite.Attributs;
 import mfiari.pokemon.server.capacite.Capacites;
 import mfiari.pokemon.core.capacite.Etat;
-import mfiari.pokemon.server.liste.ListeDeCapacite;
+import mfiari.pokemon.core.list.ListeDeCapacite;
 
 /**
  *
@@ -15,7 +15,7 @@ import mfiari.pokemon.server.liste.ListeDeCapacite;
  */
 public class CreationCapacite {
     
-    private ListeDeCapacite listeDeCapacite = new ListeDeCapacite ();
+    private final ListeDeCapacite listeDeCapacite = new ListeDeCapacite ();
 
     public CreationCapacite () {
         this.creeCapacite();

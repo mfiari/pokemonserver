@@ -5,6 +5,7 @@
 package mfiari.pokemon.server.capacite;
 
 import java.io.Serializable;
+import mfiari.pokemon.core.capacite.Capacite;
 import mfiari.pokemon.core.type.Type;
 
 /**

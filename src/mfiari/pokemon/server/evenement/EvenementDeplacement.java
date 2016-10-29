@@ -6,7 +6,6 @@ package mfiari.pokemon.server.evenement;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import mfiari.lib.game.controlleur.ControlleurVue;
 import mfiari.lib.game.interfaces.evenements.IEvenementDeplacement;
 import mfiari.lib.game.jeu.Jeu;
 import mfiari.lib.game.objet.Objet;
@@ -46,7 +45,7 @@ public class EvenementDeplacement extends Evenement implements IEvenementDeplace
     @Override
     public void activeEvenement(PokemonJeu jeu) {
         if (this.deplacementAuto) {
-            jeu.afficherEndroit((mfiari.pokemon.server.ville.Endroit)this.positionArrive.getEndroit());
+            jeu.afficherEndroit((mfiari.pokemon.core.ville.Endroit)this.positionArrive.getEndroit());
             int positionXDepart = jeu.getPerso().getPosition().getPositionX();
             int positionXArrive = this.positionArrive.getPositionX();
             for (int i = positionXDepart ; i >= positionXArrive ; i--) {
@@ -58,7 +57,7 @@ public class EvenementDeplacement extends Evenement implements IEvenementDeplace
             }
         } else {
             jeu.getPerso().setPosition(this.positionArrive);
-            jeu.afficherEndroit((mfiari.pokemon.server.ville.Endroit)this.positionArrive.getEndroit());
+            jeu.afficherEndroit((mfiari.pokemon.core.ville.Endroit)this.positionArrive.getEndroit());
         }
     }
     

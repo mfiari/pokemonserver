@@ -6,13 +6,13 @@
 
 package mfiari.pokemon.server.network;
 
-import java.net.Socket;
 import mfiari.lib.game.reseau.NetworkObjectTranmetter;
 import mfiari.lib.game.reseau.ServeurManager;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.network.User;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
 import mfiari.pokemon.server.combat.Combat;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.ville.Terrain;
+import mfiari.pokemon.core.ville.Terrain;
 
 /**
  *

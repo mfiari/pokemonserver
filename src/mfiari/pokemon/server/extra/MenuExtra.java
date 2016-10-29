@@ -4,37 +4,16 @@
  */
 package mfiari.pokemon.server.extra;
 
-import java.io.IOException;
-import java.net.Socket;
-import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import mfiari.lib.game.connexionBD.ConnexionBD;
 import mfiari.lib.game.controlleur.ControlleurVue;
-import mfiari.lib.game.controlleur.Vues;
 import mfiari.lib.game.liste.ListeDeMusique;
 import mfiari.lib.game.media.Musique;
-import mfiari.lib.game.objet.ObjetEndroitClassique;
-import mfiari.lib.game.objet.ObjetEndroitPassage;
 import mfiari.pokemon.server.Global;
-import mfiari.lib.game.position.Orientation;
-import mfiari.pokemon.server.combat.CombatReseau;
 import mfiari.pokemon.server.connexionBD.TransfertDonnee;
-import mfiari.pokemon.server.demarrage.CreationCapacite;
-import mfiari.pokemon.server.demarrage.CreationPerso;
-import mfiari.pokemon.server.demarrage.CreationPokemon;
-import mfiari.pokemon.server.liste.EquipePokemon;
 import mfiari.pokemon.server.musique.Musiques;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.perso.Dresseurs;
-import mfiari.lib.game.position.Position;
-import mfiari.lib.game.reseau.Client;
-import mfiari.lib.game.reseau.EnvoiObjet;
-import mfiari.lib.game.reseau.ReceveurObjet;
-import mfiari.lib.game.reseau.Serveur;
 import mfiari.lib.game.texte.Langue;
 import mfiari.pokemon.server.texte.Texte;
-import mfiari.pokemon.server.type.TypeTournoi;
+import mfiari.pokemon.core.type.TypeTournoi;
 
 /**
  *
@@ -317,14 +296,14 @@ public class MenuExtra extends ControlleurVue {
                     }
                     break;
                 case 3:
-                    ConnexionBD connexionBD = new ConnexionBD();
+                    /*ConnexionBD connexionBD = new ConnexionBD();
                     TransfertDonnee transfertDonnee = new TransfertDonnee(
                             connexionBD.getConnexionHSQL(Global.hsqlLocation, Global.hsqlUser, Global.hsqlMdp), 
                             connexionBD.getConnexionMySQL(Global.hostsiteWeb, Global.nomsiteWeb, Global.hsqlMdp));
-                    /*transfertDonnee.tansfertDonnee();
+                    transfertDonnee.tansfertDonnee();
                     connexionBD.fermerConnexionHSQL();
-                    connexionBD.fermerConnexionMySQL();*/
-                    transfertDonnee.transfertDonnees();
+                    connexionBD.fermerConnexionMySQL();
+                    transfertDonnee.transfertDonnees();*/
                     break;
                 case 4:
                     do {

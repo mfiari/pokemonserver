@@ -4,7 +4,8 @@
  */
 package mfiari.pokemon.server.objet;
 
-import mfiari.pokemon.server.capacite.Capacite;
+import mfiari.pokemon.core.capacite.Capacite;
+import mfiari.pokemon.core.objet.Objet_capacite;
 
 /**
  *

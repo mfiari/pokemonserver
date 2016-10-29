@@ -9,7 +9,7 @@ import mfiari.lib.game.position.Position;
 import mfiari.pokemon.server.objet.Objets;
 import mfiari.pokemon.server.perso.Habitants;
 import mfiari.pokemon.server.ville.Endroits;
-import mfiari.pokemon.server.ville.Terrains;
+import mfiari.pokemon.core.ville.Terrains;
 
 /**
  *

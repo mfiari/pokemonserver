@@ -5,8 +5,8 @@
 package mfiari.pokemon.server.demarrage;
 
 import mfiari.lib.game.controlleur.ControlleurVue;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
 import mfiari.pokemon.server.extra.MenuExtra;
-import mfiari.pokemon.server.perso.Dresseur;
 import mfiari.pokemon.server.perso.Dresseurs;
 
 /**

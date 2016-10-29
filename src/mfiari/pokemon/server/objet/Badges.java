@@ -4,6 +4,7 @@
  */
 package mfiari.pokemon.server.objet;
 
+import mfiari.pokemon.core.objet.Badge;
 import mfiari.pokemon.server.ville.Endroits;
 
 /**

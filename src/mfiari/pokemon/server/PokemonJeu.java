@@ -1,7 +1,6 @@
 package mfiari.pokemon.server;
 
 import mfiari.pokemon.core.objet.Objet_endroit_pc;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Timer;
@@ -22,28 +21,29 @@ import mfiari.lib.game.position.Position;
 import mfiari.lib.game.reseau.ClientListener.ClientCloseException;
 import mfiari.lib.game.reseau.NetworkConfig;
 import mfiari.lib.game.reseau.NetworkObjectTranmetter;
+import mfiari.pokemon.core.list.ListeDeDresseur;
+import mfiari.pokemon.core.list.ListeDePokemon;
+import mfiari.pokemon.core.network.User;
+import mfiari.pokemon.core.objet.Objet_endroit_soin;
+import mfiari.pokemon.core.objet.Pokedex;
+import mfiari.pokemon.core.objet.Sac;
+import mfiari.pokemon.core.perso.dresseur.ChampionArene;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 import mfiari.pokemon.server.combat.Combat;
 import mfiari.pokemon.server.evenement.Evenement;
 import mfiari.pokemon.server.evenement.EvenementQuete;
 import mfiari.pokemon.server.evenement.EvenementQueteAnnexe;
-import mfiari.pokemon.server.liste.ListeDeDresseur;
-import mfiari.pokemon.server.liste.ListeDePokemon;
 import mfiari.pokemon.server.menu.Menu;
 import mfiari.pokemon.server.network.ClientListener;
-import mfiari.pokemon.server.network.User;
-import mfiari.pokemon.server.ville.CentrePokemon;
-import mfiari.pokemon.server.ville.Endroit;
+import mfiari.pokemon.core.ville.CentrePokemon;
+import mfiari.pokemon.core.ville.Endroit;
 import mfiari.pokemon.server.ville.Endroits;
 import mfiari.pokemon.core.ville.Environnement;
-import mfiari.pokemon.server.objet.Objet_endroit_soin;
-import mfiari.pokemon.server.objet.Pokedex;
-import mfiari.pokemon.server.objet.Sac;
-import mfiari.pokemon.server.perso.ChampionArene;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.ville.Gare;
-import mfiari.pokemon.server.ville.Quartier;
-import mfiari.pokemon.server.ville.Salle;
-import mfiari.pokemon.server.ville.Terrain;
+import mfiari.pokemon.core.ville.Gare;
+import mfiari.pokemon.core.ville.Quartier;
+import mfiari.pokemon.core.ville.Salle;
+import mfiari.pokemon.core.ville.Terrain;
 
 /* demo du jeu pokemon */
 public class PokemonJeu extends ControlleurVue {

@@ -6,6 +6,8 @@
 
 package mfiari.pokemon.server.ville;
 
+import mfiari.pokemon.core.ville.Endroit;
+
 /**
  *
  * @author mike

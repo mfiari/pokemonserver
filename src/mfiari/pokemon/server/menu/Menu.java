@@ -7,11 +7,11 @@ package mfiari.pokemon.server.menu;
 import mfiari.lib.game.connexionBD.ConnexionBD;
 import mfiari.lib.game.controlleur.ControlleurVue;
 import mfiari.lib.game.controlleur.Vues;
+import mfiari.pokemon.core.perso.dresseur.Dresseur;
+import mfiari.pokemon.core.perso.pokemon.Pokemon;
 import mfiari.pokemon.server.Global;
 import mfiari.pokemon.server.PokemonJeu;
 import mfiari.pokemon.server.connexionBD.Connexion;
-import mfiari.pokemon.server.perso.Dresseur;
-import mfiari.pokemon.server.perso.pokemon.Pokemon;
 
 /**
  *

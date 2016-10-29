@@ -5,6 +5,14 @@
 
 package mfiari.pokemon.server.capacite;
 
+import mfiari.pokemon.core.capacite.CapaciteContreCoup;
+import mfiari.pokemon.core.capacite.CapaciteEtat;
+import mfiari.pokemon.core.capacite.CapaciteFixe;
+import mfiari.pokemon.core.capacite.CapaciteMort;
+import mfiari.pokemon.core.capacite.CapaciteMultiple;
+import mfiari.pokemon.core.capacite.CapaciteSimple;
+import mfiari.pokemon.core.capacite.CapaciteSoin;
+import mfiari.pokemon.core.capacite.CapaciteStat;
 import mfiari.pokemon.core.capacite.Etat;
 import mfiari.pokemon.core.capacite.PokemonVise;
 import mfiari.pokemon.core.type.Attribut;
