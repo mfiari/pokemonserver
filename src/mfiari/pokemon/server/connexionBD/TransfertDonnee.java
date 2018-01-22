@@ -5,9 +5,6 @@
 package mfiari.pokemon.server.connexionBD;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import mfiari.lib.game.connexionBD.Methode;
@@ -16,11 +13,9 @@ import org.restlet.data.ChallengeResponse;
 import org.restlet.data.ChallengeScheme;
 import org.restlet.data.CharacterSet;
 import org.restlet.data.Form;
-import org.restlet.ext.xml.DomRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.ClientResource;
 import mfiari.pokemon.server.Global;
-import org.restlet.data.Status;
 import org.restlet.resource.ResourceException;
 
 /**
@@ -71,6 +66,14 @@ public class TransfertDonnee extends Methode {
         }
         System.out.println(resource.getStatus());
         return resource.getStatus().isSuccess();
+    }
+    
+    public boolean create () {
+        return false;
+    }
+    
+    public void load () {
+        
     }
     
 }
